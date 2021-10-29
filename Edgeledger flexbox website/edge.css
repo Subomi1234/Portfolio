@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:0.75rem;
+    margin: 0 0.25rem;
+    
+}
+
+#nav ul li a:hover{
+    background-color: turquoise;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    background-color: #333;
+    color:white;
+    z-index:1;
+    padding:16px;
+}
+
+
+
+#nav ul{
+    display:flex;
+    align-items: center;
+   
+}
+
+.showcase{
+    background:url("./image_resources/showcase.jpg") no-repeat center center/cover;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding:0 2rem;
+    
+
+}
+
+.showcase h1, .showcase p{
+    color: white;
+}
+
+.showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.showcase p{
+    font-size:1.3rem;
+    margin-bottom: 2rem;
+}
+
+
+.btn{
+    background: #93cb52;
+    padding:.5rem 2rem;
+    border:none;
+    border-radius: 5px;
+   
+}
+
+
+.btn:hover{
+    background: #7ab436;
+}
+
+.wdwd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height:100%; 
+    margin-bottom: 30px;;
+}
+
+span{
+    color: seagreen;
+    margin-right:7px;
+}
+.wdwd li{
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.wdwd p{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:0 70px;
+   
+}
+
+.wwd h1{
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.cont p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+.whoweare{
+    background: url("./image_resources/people.jpg") no-repeat center center/cover;
+    flex:1;
+    
+}
+
+.we{
+    display: flex;
+    height:100%;
+    width:100%;
+}
+
+.side{
+    flex:1;
+    background: rgb(41, 41, 41);
+    color:white;
+    
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+  
+        padding-bottom: 25px;
+
+    
+    
+}
+
+.side h3{
+    text-align: left;
+    
+}
+
+.side h2{
+    text-align: left;
+}
+
+.side h1, p, li, h3{
+    padding-left:30px;
+}
+
+.side h1{
+    margin: 30px 0 0;
+}
+
+p{
+    text-align: justify;
+    margin-top:20px;
+}
+h2{
+    margin-top:20px;
+}
+
+.us li{
+    list-style-type:none;
+    margin-top:20px;
+    border-bottom: #444 dotted 1px;
+    
+}
+
+.team{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+
+}
+
+.client img{
+    margin:auto;
+    width:100px;
+    padding-top: 30px;
+    
+
+}
+
+.client h2{
+    text-align: center;
+    font-size: 40px;;
+}
+
+#clients{
+    height:100%;
+    align-items: center;
+    margin-bottom: 50px;;
+    
+}
+
+.pic img{
+    margin-top: 30px;
+}
+
+#green{
+    display:flex;
+    color: white;
+    height: 100%;
+}
+
+
+#green .cont{
+    flex:1;
+    background-color: rgb(66, 94, 38);
+}
+
+#green .another{
+    flex:1;
+    background-color: black;
+}
+
+
+input{
+    width:100%;
+    height:2rem;
+}
+
+
+.cont form label{
+    display:block;
+}
+
+.cont form{
+    margin:0.75rem;
+}
+.cont p{
+    padding-left:0;
+    
+}
+
+.cont h1{
+    margin:0.75rem;
+}
+
+textarea{
+    width:100%;
+    height:2rem;
+}
+
+.form{
+    margin:10px;
+}
+label{
+    margin-bottom: 5px;
+}
+
+button{
+    width:100%;
+    height:2rem;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.foot{
+    background-color: rgb(59, 58, 58);
+    display: inline-block;
+    width:100%;
+    color: white;
+    
+}
+
+.foot p{
+    text-align: center;
+    margin-bottom: 20px;
+}

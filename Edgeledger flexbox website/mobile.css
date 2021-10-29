@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+
+
+.wwd .wdwd{
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    
+}
+
+.wdwd .one{
+    margin:10px;
+    
+}
+.wdwd .two{
+    margin:10px;
+    
+}
+.wdwd .three{
+    margin:10px;
+    
+}
+
+
+.pic{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#green{
+    display: flex;
+}
+#green .cont{
+    flex:2;
+    
+}
+#nav{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+
+#nav ul{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+    
+.whoweare{
+    background: url("./image_resources/people.jpg") no-repeat center center/cover;
+    display: none;
+}
+
+.side{
+    padding-bottom: 25px;
+}
