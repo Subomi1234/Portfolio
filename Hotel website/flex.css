@@ -1,0 +1,20 @@
+.item{
+    background:lightgray;
+    border: #ccc solid 1px;
+    padding:1rem;
+    text-align: center;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;   
+}
+
+.item{
+    flex:1;
+    margin: .75rem;
+}
+
+.item:first-child{
+    flex:2;
+}

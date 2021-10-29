@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav{
+    background: black;
+    overflow: auto;
+    height:50px;
+}
+
+
+p{
+    margin: 10px 0;
+}
+li{
+    list-style: none;
+    
+}
+.nav h2{
+    float:left;
+    padding:10px 30px;
+    
+}
+ul{
+    float:right;
+    
+}
+
+
+.nav ul{
+    padding-top:15px;
+}
+
+.nav ul li{
+    display:inline;
+    padding:30px;
+    
+    
+}
+.nav ul li:hover {
+    background-color: cadetblue;
+    color:chartreuse;  
+}
+
+.hero{
+    background: url(/img/showcase.jpg) no-repeat center center/cover;
+    height:600px;
+    
+}
+
+.hero h1 span{
+    color: coral;
+
+}
+
+.hero{
+    text-align: center;
+    position:relative;
+}
+
+.info{
+    position: relative;
+    top:200px;
+    font-size: 30px;
+}
+
+.info button{
+    background:black;
+    border:none;
+    height:40px;
+    color:white;
+    width:150px;
+}
+
+.leftpic img{
+    
+    width:50%;
+    float:left;
+    height:400px;
+}
+
+.rightpic{
+    background:black;
+    height:400px;
+    float:right;
+    width:50%;
+    text-align: center;
+}
+
+.rightpic h3{
+    color: white;
+}
+
+.rightpic p{
+    color:white;
+    font-size: 20px;
+}
+.rightpic h3{
+    color:white;
+    font-size: 40px;
+}
+
+.rightpic h3 span{
+    color:darkcyan;
+}
+
+.content{
+    position: relative;
+    top:100px; 
+}
+
+.content button a{
+    background:white;
+    border:none;
+    color:black; 
+}
+.content p{
+    margin:20px;
+}
+.content button {
+    height:40px; 
+    width:100px;
+    font-size: 15px;
+    margin:40px;
+}
+.sections{
+    text-align: center;
+}
+.sec1{
+    float:left;
+    width:33.3%;
+    height:300px;
+    background:rgb(255, 255, 255);
+}
+.sec2{
+    float:left;
+    width:33.3%;
+    height:300px;
+    background:rgb(103, 216, 250);
+    margin:0;
+    padding:0;
+    
+}
+.sec3{
+    float:right;
+    width:33.3%;
+    height:300px;
+    background:rgb(250, 250, 250);
+    
+}
+
+
+
+.text p{
+    color:white;
+}
+
+
+.foot{
+    background: black;   
+    width:100%;
+    height:50px;
+    display:inline-block;
+    
+    
+}
+
+
+
+.text p{
+    text-align: center;
+}
+
+
+.clr{
+    clear: both;
+}
+
+
+
+
+/* ABOUT SECTION */
+
+.showcase img{
+    height:300px;
+    display: block;
+    margin:auto;
+    position: relative;
+    top:20px;
+}
+.showcase span{
+    color: rgb(235, 190, 95);
+}
+
+.showcase h1{
+    float:left;
+    width:60%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.showcase{
+    height: 350px;
+}
+
+.showcase p{
+    float:left;
+    width:60%;
+    padding-left: 30px;
+}
+
+.showcase img{
+    border-radius: 50%;
+}
+
+.guests{
+    background:url(./img/test-bg.jpg) center center/cover;
+    height:700px;
+}
+
+.guests h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.person1{
+    background-color: rgb(0, 0, 0);
+    height:150px;
+    
+    margin-top:90px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    opacity: .9;
+}
+.person1 p{
+    color: white;
+    
+    text-align: center;
+    float:right;
+    position: relative;
+    right:300px;
+    top:30px;
+    
+}
+.person1 img{
+    
+    width:100px;
+    margin-left: 30px;
+    border-radius: 50%;
+    vertical-align:middle;
+    position: relative;
+    top:25px;
+    
+}
+
+.person2{
+     background-color: rgb(253, 210, 131);
+    height:150px;  
+    margin-top:90px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    opacity: 0.9;
+    
+
+}
+
+.person2 img{
+    height:100px;
+    width:100px;
+    margin-left: 30px;
+    border-radius: 50%;
+    vertical-align:middle;
+    position: relative;
+    position: relative;
+    top:25px;
+}
+
+.person2 p{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+
+/* CONTACT */
+
+#form{
+    padding-left: 60px;
+    
+}
+
+
+.forms label{
+    display: block; 
+    padding:10px;
+    
+    
+}
+
+.forms input{
+    
+    padding:10px;
+    width:50%;
+    
+}
+.forms input:focus{
+    
+    outline: none;
+    border-color:red;
+    
+}
+.forms textarea{
+    
+    padding:10px;
+    width:50%;
+    height:300px;
+    
+}
+.forms textarea:focus{
+    
+    outline: none;
+    border-color: red;
+}
+
+.btn{
+    height:40px;
+    width:100px;
+    background-color: black;
+    color: white;
+    border:none;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
